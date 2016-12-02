@@ -4,7 +4,7 @@
     "_": false
   },
   "env": {
-    "browser": true,
+    "browser": false,
     "es6": true
   },
   "extends": "eslint:recommended",
@@ -23,6 +23,7 @@
     "semi": [
       2,
       "always"
-    ]
+    ],
+    "no-console": 0
   }
 }
