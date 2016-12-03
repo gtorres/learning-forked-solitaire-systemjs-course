@@ -1,8 +1,8 @@
 System.trace = true;
 
-window.showModulesRelationships = function () {
+window.showModulesRelationships = function() {
     var modules = Object.keys(System.loads)
-        .map(function (moduleName) {
+        .map(function(moduleName) {
             return System.loads[moduleName];
         });
 
@@ -10,10 +10,30 @@ window.showModulesRelationships = function () {
         return module.replace("http://127.0.0.1:8080/app/", "");
     }
 
-    var moduleDefinitions = modules.map(function (module) {
+    var moduleDefinitions = modules.map(function(module) {
         var name = displayName(module.name);
         return "[" + name + "]";
     });
 
-    window.open("http://yuml.me/diagram/plain/class/" + moduleDefinitions);
+    var dependencyDefinitions = [];
+
+    modules
+        .filter(function(module) {
+            return module.deps.length > 0;
+        })
+        .forEach(function(module) {
+            var name = displayName(module.name);
+
+            var dependencies = module.deps
+                .map(displayName)
+                .map(function(dependencyName) {
+                    return "[" + name + "]->[" + dependencyName + "]";
+                });
+
+            dependencyDefinitions = dependencyDefinitions.concat(dependencies);
+        });
+
+    var definitions = moduleDefinitions.concat(dependencyDefinitions);
+
+    window.open("http://yuml.me/diagram/plain/class/" + definitions);
 };
