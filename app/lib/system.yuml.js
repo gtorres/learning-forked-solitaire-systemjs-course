@@ -7,7 +7,7 @@ window.showModulesRelationships = function() {
         });
 
     function displayName(module) {
-        return module.replace("http://127.0.0.1:8080/app/", "");
+        return module.replace(System.baseURL, "");
     }
 
     var moduleDefinitions = modules.map(function(module) {
