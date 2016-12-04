@@ -1,6 +1,6 @@
 System.trace = true;
 
-window.showModulesRelationships = function() {
+window.showModuleRelationships = function() {
     var modules = Object.keys(System.loads)
         .map(function(moduleName) {
             return System.loads[moduleName];
@@ -12,7 +12,7 @@ window.showModulesRelationships = function() {
 
     var moduleDefinitions = modules.map(function(module) {
         var name = displayName(module.name);
-        return "[" + name + "]";
+        return "[" + name + "|" + module.metadata.format + "]";
     });
 
     var dependencyDefinitions = [];
