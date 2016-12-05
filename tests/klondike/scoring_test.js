@@ -1,4 +1,7 @@
 import Card from "card";
+import RemainderPile from "klondike/piles/remainderPile.js";
+import TableauPile from "klondike/piles/tableauPile.js";
+import FoundationPile from "klondike/piles/foundationPile.js";
 
 describe("The score", function () {
   "use strict";

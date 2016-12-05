@@ -1,4 +1,7 @@
 import Deck from "../cards/deck.js";
+import FoundationPile from "./piles/foundationPile.js";
+import RemainderPile from "./piles/remainderPile.js";
+import TableauPile from "./piles/tableauPile.js";
 
 angular.module("klondike.game", [])
   .service("klondikeGame", ["scoring", KlondikeGame]);
