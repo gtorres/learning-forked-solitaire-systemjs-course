@@ -1,3 +1,5 @@
+import { module, inject } from "angular-mocks";
+
 import Card from "card";
 import "klondike/klondike.js";
 import TableauPile from "klondike/piles/tableauPile.js";

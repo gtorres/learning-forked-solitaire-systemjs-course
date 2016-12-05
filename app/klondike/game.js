@@ -1,4 +1,5 @@
 import _ from "underscore";
+import angular from "angular";
 
 import Deck from "../cards/deck.js";
 import FoundationPile from "./piles/foundationPile.js";

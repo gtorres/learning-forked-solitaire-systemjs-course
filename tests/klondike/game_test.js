@@ -1,3 +1,5 @@
+import { module, inject } from "angular-mocks";
+
 import Deck from "deck";
 import _ from "underscore";
 
