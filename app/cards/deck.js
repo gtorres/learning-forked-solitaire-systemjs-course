@@ -1,3 +1,5 @@
+import _ from "underscore";
+
 import Card from "card";
 
 export default function Deck() {

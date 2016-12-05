@@ -15,7 +15,7 @@ module.exports = function (config) {
     ],
 
     proxies: {
-      "/node_modules": "/base/node_modules",
+      "/base/jspm_packages": "/base/app/jspm_packages",
       "/base/cards": "/base/app/cards",
       "/base/klondike": "/base/app/klondike"
     },
@@ -25,7 +25,7 @@ module.exports = function (config) {
       packages: "app/bower_components/system.js/dist",
       serveFiles: [
         "app/**/*.js",
-        "node_modules/babel-core/browser.js"
+        "app/jspm_packages/npm/babel-core@5.8.38.js"
       ],
       loadFiles: [
         "tests/cards/*.js",

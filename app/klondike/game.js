@@ -1,3 +1,5 @@
+import _ from "underscore";
+
 import Deck from "../cards/deck.js";
 import FoundationPile from "./piles/foundationPile.js";
 import RemainderPile from "./piles/remainderPile.js";

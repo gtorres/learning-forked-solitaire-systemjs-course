@@ -5,9 +5,7 @@
   "description": "A game of solitaire",
   "repository": "https://github.com/g0t4/angular-solitaire",
   "license": "MIT",
-  "dependencies": {
-    "babel-core": "^5.8.25"
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "^1.3.1",
     "eslint": "^3.11.1",
@@ -28,5 +26,18 @@
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "underscore": "npm:underscore@1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
