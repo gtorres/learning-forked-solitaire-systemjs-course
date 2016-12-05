@@ -1,6 +1,6 @@
-import "klondike/board.js";
-import "klondike/game.js";
-import { Scoring } from "klondike/scoring.js";
+import "./board.js";
+import "./game.js";
+import { Scoring } from "./scoring.js";
 
 angular.module("klondike.scoring", [])
   .service("scoring", [Scoring]);

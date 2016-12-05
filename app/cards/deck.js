@@ -1,4 +1,4 @@
-import Card from "./card.js";
+import Card from "card";
 
 export default function Deck() {
   this.unShuffled = function unShuffled() {
