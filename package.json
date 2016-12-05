@@ -11,11 +11,12 @@
     "eslint": "^3.11.1",
     "http-server": "^0.8.4",
     "jasmine-core": "^2.3.4",
+    "jspm": "^0.16.11",
     "karma": "~0.13",
     "karma-chrome-launcher": "^0.2.0",
     "karma-firefox-launcher": "^0.1.6",
     "karma-jasmine": "^0.3.6",
-    "karma-jspm": "^2.2.0",
+    "karma-jspm": "^2.0.1",
     "karma-junit-reporter": "^0.3.4"
   },
   "scripts": {
