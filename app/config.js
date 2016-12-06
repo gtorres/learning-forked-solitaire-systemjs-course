@@ -13,7 +13,7 @@ System.config({
     "npm:*": "jspm_packages/npm/*"
   },
   bundles: {
-    "app.bundle.uglify.js": [
+    "app.bundle.unmangle.js": [
       "app.js",
       "github:angular/bower-angular@1.4.7",
       "github:fatlinesofcode/ngDraggable@0.1.8",
