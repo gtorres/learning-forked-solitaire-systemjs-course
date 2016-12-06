@@ -22,11 +22,15 @@ System.config({
     "card": "cards/card.js",
     "core-js": "npm:core-js@1.2.7",
     "deck": "cards/deck.js",
+    "ngDraggable": "github:fatlinesofcode/ngDraggable@0.1.8",
     "underscore": "npm:underscore@1.8.3",
     "github:angular/bower-angular-mocks@1.4.7": {
       "angular": "github:angular/bower-angular@1.4.7"
     },
     "github:angular/bower-angular-route@1.4.7": {
+      "angular": "github:angular/bower-angular@1.4.7"
+    },
+    "github:fatlinesofcode/ngDraggable@0.1.8": {
       "angular": "github:angular/bower-angular@1.4.7"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
