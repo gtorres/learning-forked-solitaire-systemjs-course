@@ -23,7 +23,8 @@
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js --single-run",
-    "jspm-bundle-inject": "jspm bundle app.js app/app.bundle.js --inject"
+    "jspm-bundle-inject": "jspm bundle app.js app/app.bundle.js --inject",
+    "jspm-bundle-inject-uglify": "jspm bundle app.js app/app.bundle.uglify.js --inject --minify"
   },
   "jspm": {
     "directories": {
