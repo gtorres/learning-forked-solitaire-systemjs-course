@@ -13,6 +13,86 @@ System.config({
     "npm:*": "jspm_packages/npm/*"
   },
 
+  depCache: {
+    "app.js": [
+      "github:angular/bower-angular@1.4.7",
+      "github:fatlinesofcode/ngDraggable@0.1.8",
+      "klondike/klondike.js"
+    ],
+    "github:angular/bower-angular@1.4.7": [
+      "github:angular/bower-angular@1.4.7/angular"
+    ],
+    "github:fatlinesofcode/ngDraggable@0.1.8": [
+      "github:fatlinesofcode/ngDraggable@0.1.8/ngDraggable"
+    ],
+    "klondike/klondike.js": [
+      "github:angular/bower-angular@1.4.7",
+      "klondike/board.js",
+      "klondike/game.js",
+      "klondike/scoring.js"
+    ],
+    "github:fatlinesofcode/ngDraggable@0.1.8/ngDraggable": [
+      "github:angular/bower-angular@1.4.7"
+    ],
+    "klondike/board.js": [
+      "github:angular/bower-angular@1.4.7",
+      "github:angular/bower-angular-route@1.4.7"
+    ],
+    "klondike/scoring.js": [
+      "npm:babel-runtime@5.8.38/helpers/create-class",
+      "npm:babel-runtime@5.8.38/helpers/class-call-check"
+    ],
+    "klondike/game.js": [
+      "npm:underscore@1.8.3",
+      "github:angular/bower-angular@1.4.7",
+      "cards/deck.js",
+      "klondike/piles/foundationPile.js",
+      "klondike/piles/remainderPile.js",
+      "klondike/piles/tableauPile.js"
+    ],
+    "npm:babel-runtime@5.8.38/helpers/create-class": [
+      "npm:babel-runtime@5.8.38/core-js/object/define-property"
+    ],
+    "npm:underscore@1.8.3": [
+      "npm:underscore@1.8.3/underscore"
+    ],
+    "cards/deck.js": [
+      "npm:underscore@1.8.3",
+      "cards/card.js"
+    ],
+    "klondike/piles/foundationPile.js": [
+      "npm:babel-runtime@5.8.38/core-js/object/create",
+      "klondike/piles/pile.js"
+    ],
+    "github:angular/bower-angular-route@1.4.7": [
+      "github:angular/bower-angular-route@1.4.7/angular-route"
+    ],
+    "klondike/piles/remainderPile.js": [
+      "npm:babel-runtime@5.8.38/core-js/object/create",
+      "klondike/piles/pile.js"
+    ],
+    "klondike/piles/tableauPile.js": [
+      "npm:babel-runtime@5.8.38/core-js/object/create",
+      "klondike/piles/pile.js",
+      "npm:underscore@1.8.3"
+    ],
+    "npm:babel-runtime@5.8.38/core-js/object/define-property": [
+      "npm:core-js@1.2.7/library/fn/object/define-property"
+    ],
+    "npm:babel-runtime@5.8.38/core-js/object/create": [
+      "npm:core-js@1.2.7/library/fn/object/create"
+    ],
+    "github:angular/bower-angular-route@1.4.7/angular-route": [
+      "github:angular/bower-angular@1.4.7"
+    ],
+    "npm:core-js@1.2.7/library/fn/object/define-property": [
+      "npm:core-js@1.2.7/library/modules/$"
+    ],
+    "npm:core-js@1.2.7/library/fn/object/create": [
+      "npm:core-js@1.2.7/library/modules/$"
+    ]
+  },
+
   map: {
     "angular": "github:angular/bower-angular@1.4.7",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.7",
