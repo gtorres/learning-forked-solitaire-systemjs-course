@@ -13,33 +13,35 @@ System.config({
     "npm:*": "jspm_packages/npm/*"
   },
   bundles: {
-    "app.bundle.unmangle.js": [
+    "app.bundle.js": [
       "app.js",
       "github:angular/bower-angular@1.4.7",
-      "github:fatlinesofcode/ngDraggable@0.1.8",
       "klondike/klondike.js",
-      "github:angular/bower-angular@1.4.7/angular",
-      "github:fatlinesofcode/ngDraggable@0.1.8/ngDraggable",
+      "github:fatlinesofcode/ngDraggable@0.1.8",
       "klondike/board.js",
+      "github:angular/bower-angular@1.4.7/angular",
       "klondike/game.js",
       "klondike/scoring.js",
+      "github:fatlinesofcode/ngDraggable@0.1.8/ngDraggable",
       "github:angular/bower-angular-route@1.4.7",
-      "npm:underscore@1.8.3",
-      "cards/deck.js",
       "klondike/piles/foundationPile.js",
       "klondike/piles/remainderPile.js",
       "klondike/piles/tableauPile.js",
       "npm:babel-runtime@5.8.38/helpers/create-class",
       "npm:babel-runtime@5.8.38/helpers/class-call-check",
       "github:angular/bower-angular-route@1.4.7/angular-route",
-      "npm:underscore@1.8.3/underscore",
-      "cards/card.js",
       "klondike/piles/pile.js",
       "npm:babel-runtime@5.8.38/core-js/object/create",
       "npm:babel-runtime@5.8.38/core-js/object/define-property",
       "npm:core-js@1.2.7/library/fn/object/create",
       "npm:core-js@1.2.7/library/fn/object/define-property",
       "npm:core-js@1.2.7/library/modules/$"
+    ],
+    "cards.bundle.js": [
+      "cards/deck.js",
+      "cards/card.js",
+      "npm:underscore@1.8.3",
+      "npm:underscore@1.8.3/underscore"
     ]
   },
 
