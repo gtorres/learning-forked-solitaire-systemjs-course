@@ -103,6 +103,7 @@ System.config({
     "core-js": "npm:core-js@1.2.7",
     "deck": "cards/deck.js",
     "ngDraggable": "github:fatlinesofcode/ngDraggable@0.1.8",
+    "text": "github:systemjs/plugin-text@0.0.9",
     "underscore": "npm:underscore@1.8.3",
     "github:angular/bower-angular-mocks@1.4.7": {
       "angular": "github:angular/bower-angular@1.4.7"

@@ -1,5 +1,8 @@
 import angular from "angular";
 import "angular-route";
+import cardTemplate from "../cards/card.html!text";
+
+console.log(cardTemplate);
 
 (function () {
   "use strict";
@@ -39,7 +42,7 @@ import "angular-route";
     .directive("sCard", function () {
       return {
         restrict: "A",
-        templateUrl: "cards/card.html",
+        template: cardTemplate,
         scope: {
           card: "="
         }
