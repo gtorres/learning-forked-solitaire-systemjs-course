@@ -2,8 +2,6 @@ import angular from "angular";
 import "angular-route";
 import cardTemplate from "../cards/card.html!text";
 
-console.log(cardTemplate);
-
 (function () {
   "use strict";
 
