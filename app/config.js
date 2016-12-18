@@ -14,7 +14,6 @@ System.config({
   },
 
   map: {
-    "md": "lib/markdown-plugin.js",
     "angular": "github:angular/bower-angular@1.4.7",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.7",
     "angular-route": "github:angular/bower-angular-route@1.4.7",
@@ -25,6 +24,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.32",
     "deck": "cards/deck.js",
     "image": "github:systemjs/plugin-image@0.1.0",
+    "marked": "npm:marked@0.3.6",
+    "md": "lib/markdown-plugin.js",
     "ngDraggable": "github:fatlinesofcode/ngDraggable@0.1.8",
     "text": "github:systemjs/plugin-text@0.0.9",
     "underscore": "npm:underscore@1.8.3",

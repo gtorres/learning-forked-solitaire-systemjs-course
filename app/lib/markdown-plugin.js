@@ -1,7 +1,9 @@
+var marked = require("marked");
+
 var exports;
 exports.translate = function (load) {
-    var source = load.source;
-    return "module.exports = \"" + source
+    var html = marked(load.source);
+    return "module.exports = \"" + html
         .replace(/(["\\])/g, "\\$1")
         .replace(/[\f]/g, "\\f")
         .replace(/[\b]/g, "\\b")
