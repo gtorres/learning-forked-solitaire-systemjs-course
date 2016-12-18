@@ -21,6 +21,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "card": "cards/card.js",
     "core-js": "npm:core-js@1.2.7",
+    "css": "github:systemjs/plugin-css@0.1.32",
     "deck": "cards/deck.js",
     "image": "github:systemjs/plugin-image@0.1.0",
     "ngDraggable": "github:fatlinesofcode/ngDraggable@0.1.8",
