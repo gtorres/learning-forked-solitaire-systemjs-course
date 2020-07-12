@@ -6,7 +6,7 @@
   "repository": "https://github.com/g0t4/angular-solitaire",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.11.1",
+    "eslint": "^7.4.0",
     "http-server": "^0.8.4",
     "jasmine-core": "^2.3.4",
     "jspm": "^0.16.11",
